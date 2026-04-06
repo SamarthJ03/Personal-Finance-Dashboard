@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import moneyImg from "../assets/money.png";
 
 export default function TransactionCard({
   category,
@@ -44,7 +43,7 @@ export default function TransactionCard({
   }`}
 >
       <span className="text-lg font-semibold flex items-center gap-2">
-        <img src={moneyImg} alt="" className="w-6 h-6" />
+        <img src="public\assets\money.png" alt="" className="w-6 h-6" />
         {isNew ? "Add Transaction" : "Transaction Details"}
       </span>
 

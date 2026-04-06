@@ -23,22 +23,22 @@ export default function Home() {
         <div className="xl:col-span-2 space-y-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-4">
             <Card
-              img="src/assets/money.png"
+              img="public\assets\money.png"
               title="Total Balance"
               amount="₹750000"
             />
             <Card
-              img="src/assets/arrow.png"
+              img="public\assets\arrow.png"
               title="Yearly Income"
               amount={`₹${yearlyIncome}`}
             />
             <Card
-              img="src/assets/decrease.png"
+              img="public\assets\decrease.png"
               title="Yearly Costs"
               amount={`₹${yearlyExpense}`}
             />
             <Card
-              img="src/assets/salary.png"
+              img="public\assets\salary.png"
               title="Yearly Savings"
               amount={`₹${yearlySavings}`}
             />

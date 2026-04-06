@@ -43,7 +43,7 @@ export default function TransactionCard({
   }`}
 >
       <span className="text-lg font-semibold flex items-center gap-2">
-        <img src="public\assets\money.png" alt="" className="w-6 h-6" />
+        <img src="/assets/money.png" alt="" className="w-6 h-6" />
         {isNew ? "Add Transaction" : "Transaction Details"}
       </span>
 

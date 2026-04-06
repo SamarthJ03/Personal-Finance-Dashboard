@@ -24,7 +24,7 @@ export default function Layout({ transactions, setTransactions }) {
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
             <div className="flex items-center gap-2">
               <img
-                src="public/assets/company_logo.png"
+                src="/assets/company_logo.png"
                 alt="logo"
                 className="w-10 h-10 object-contain"
               />
@@ -50,15 +50,15 @@ export default function Layout({ transactions, setTransactions }) {
             </div>
 
             <div className="w-8 h-8 rounded-lg hover:bg-gray-100 flex items-center justify-center cursor-pointer transition">
-              <img src="src/assets/search.png" alt="" className="w-4 h-4" />
+              <img src="/assets/search.png" alt="" className="w-4 h-4" />
             </div>
 
             <div className="w-8 h-8 rounded-lg hover:bg-gray-100 flex items-center justify-center cursor-pointer transition">
-              <img src="src/assets/notification.png" alt="" className="w-4 h-4" />
+              <img src="/assets/notification.png" alt="" className="w-4 h-4" />
             </div>
 
             <img
-              src="public/assets/avatar.png"
+              src="/assets/avatar.png"
               alt=""
               className="w-8 h-8 rounded-full cursor-pointer"
             />
